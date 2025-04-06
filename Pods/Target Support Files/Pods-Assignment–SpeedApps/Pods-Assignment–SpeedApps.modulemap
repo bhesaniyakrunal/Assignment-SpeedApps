@@ -1,0 +1,6 @@
+module Pods_Assignment_SpeedApps {
+  umbrella header "Pods-Assignment–SpeedApps-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FE59676728B40FB09B46446 /* libPods-Assignment–SpeedApps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEEEDDAD715450984F49195 /* libPods-Assignment–SpeedApps.a */; };
 		FA5520612DA1326F00A546F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520602DA1326F00A546F9 /* AppDelegate.swift */; };
 		FA5520632DA1326F00A546F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520622DA1326F00A546F9 /* SceneDelegate.swift */; };
-		FA5520652DA1326F00A546F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520642DA1326F00A546F9 /* ViewController.swift */; };
 		FA5520682DA1326F00A546F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5520662DA1326F00A546F9 /* Main.storyboard */; };
 		FA55206A2DA1327200A546F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5520692DA1327200A546F9 /* Assets.xcassets */; };
 		FA55206D2DA1327200A546F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA55206B2DA1327200A546F9 /* LaunchScreen.storyboard */; };
+		FA55207B2DA1368500A546F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55207A2DA1368500A546F9 /* Model.swift */; };
+		FA55207D2DA1369300A546F9 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55207C2DA1369300A546F9 /* ViewModels.swift */; };
+		FA55207F2DA136C400A546F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55207E2DA136C400A546F9 /* HomeViewController.swift */; };
+		FA5520812DA136D600A546F9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520802DA136D600A546F9 /* APIService.swift */; };
+		FA5520852DA139D800A546F9 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520832DA139D800A546F9 /* ProductTableViewCell.swift */; };
+		FA5520862DA139D800A546F9 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5520842DA139D800A546F9 /* ProductTableViewCell.xib */; };
+		FA5520882DA1469E00A546F9 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520872DA1469E00A546F9 /* ProductDetailViewController.swift */; };
+		FA55208A2DA149D800A546F9 /* CodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5520892DA149D800A546F9 /* CodeExtension.swift */; };
+		FA55208D2DA14EB300A546F9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55208C2DA14EB300A546F9 /* StoreKit.framework */; };
+		FA5520902DA1509800A546F9 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55208F2DA1509800A546F9 /* IAPManager.swift */; };
+		FA8531C02DA28E0C002AA0E4 /* PurchasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8531BF2DA28E0C002AA0E4 /* PurchasedViewController.swift */; };
+		FA8531C42DA29713002AA0E4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8531C32DA29713002AA0E4 /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AEEEDDAD715450984F49195 /* libPods-Assignment–SpeedApps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Assignment–SpeedApps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9226533737865C3F5F50E3D7 /* Pods-Assignment–SpeedApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment–SpeedApps.debug.xcconfig"; path = "Target Support Files/Pods-Assignment–SpeedApps/Pods-Assignment–SpeedApps.debug.xcconfig"; sourceTree = "<group>"; };
+		CA58DAA42D57DEC585467546 /* Pods-Assignment–SpeedApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment–SpeedApps.release.xcconfig"; path = "Target Support Files/Pods-Assignment–SpeedApps/Pods-Assignment–SpeedApps.release.xcconfig"; sourceTree = "<group>"; };
 		FA55205D2DA1326F00A546F9 /* Assignment–SpeedApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment–SpeedApps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5520602DA1326F00A546F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5520622DA1326F00A546F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA5520642DA1326F00A546F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA5520672DA1326F00A546F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA5520692DA1327200A546F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA55206C2DA1327200A546F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA55206E2DA1327200A546F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA55207A2DA1368500A546F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA55207C2DA1369300A546F9 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		FA55207E2DA136C400A546F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA5520802DA136D600A546F9 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA5520832DA139D800A546F9 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FA5520842DA139D800A546F9 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		FA5520872DA1469E00A546F9 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		FA5520892DA149D800A546F9 /* CodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExtension.swift; sourceTree = "<group>"; };
+		FA55208C2DA14EB300A546F9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA55208F2DA1509800A546F9 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		FA5520922DA155B500A546F9 /* TestStoreKit.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestStoreKit.storekit; sourceTree = "<group>"; };
+		FA8531BF2DA28E0C002AA0E4 /* PurchasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedViewController.swift; sourceTree = "<group>"; };
+		FA8531C32DA29713002AA0E4 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA55208D2DA14EB300A546F9 /* StoreKit.framework in Frameworks */,
+				9FE59676728B40FB09B46446 /* libPods-Assignment–SpeedApps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0990A8BB4DF18B0779BC3E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9226533737865C3F5F50E3D7 /* Pods-Assignment–SpeedApps.debug.xcconfig */,
+				CA58DAA42D57DEC585467546 /* Pods-Assignment–SpeedApps.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA5520542DA1326F00A546F9 = {
 			isa = PBXGroup;
 			children = (
 				FA55205F2DA1326F00A546F9 /* Assignment–SpeedApps */,
 				FA55205E2DA1326F00A546F9 /* Products */,
+				FA55208B2DA14EB300A546F9 /* Frameworks */,
+				E0990A8BB4DF18B0779BC3E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +99,97 @@
 			children = (
 				FA5520602DA1326F00A546F9 /* AppDelegate.swift */,
 				FA5520622DA1326F00A546F9 /* SceneDelegate.swift */,
-				FA5520642DA1326F00A546F9 /* ViewController.swift */,
+				FA5520742DA134FF00A546F9 /* Views */,
+				FA5520752DA1350600A546F9 /* ViewModels */,
+				FA5520762DA1350F00A546F9 /* Models */,
+				FA5520792DA1352800A546F9 /* Utilities */,
+				FA5520782DA1352100A546F9 /* Resources */,
+				FA5520772DA1351700A546F9 /* APIService */,
+				FA5520912DA1555900A546F9 /* Test In App Purchase */,
 				FA5520662DA1326F00A546F9 /* Main.storyboard */,
 				FA5520692DA1327200A546F9 /* Assets.xcassets */,
 				FA55206B2DA1327200A546F9 /* LaunchScreen.storyboard */,
 				FA55206E2DA1327200A546F9 /* Info.plist */,
 			);
 			path = "Assignment–SpeedApps";
+			sourceTree = "<group>";
+		};
+		FA5520742DA134FF00A546F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA55207E2DA136C400A546F9 /* HomeViewController.swift */,
+				FA5520872DA1469E00A546F9 /* ProductDetailViewController.swift */,
+				FA5520822DA1399800A546F9 /* ProductCell */,
+				FA8531BF2DA28E0C002AA0E4 /* PurchasedViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA5520752DA1350600A546F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA55207C2DA1369300A546F9 /* ViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA5520762DA1350F00A546F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA55207A2DA1368500A546F9 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA5520772DA1351700A546F9 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				FA5520802DA136D600A546F9 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		FA5520782DA1352100A546F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA5520892DA149D800A546F9 /* CodeExtension.swift */,
+				FA8531C32DA29713002AA0E4 /* ThemeManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA5520792DA1352800A546F9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA55208F2DA1509800A546F9 /* IAPManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FA5520822DA1399800A546F9 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5520832DA139D800A546F9 /* ProductTableViewCell.swift */,
+				FA5520842DA139D800A546F9 /* ProductTableViewCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		FA55208B2DA14EB300A546F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA55208C2DA14EB300A546F9 /* StoreKit.framework */,
+				1AEEEDDAD715450984F49195 /* libPods-Assignment–SpeedApps.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5520912DA1555900A546F9 /* Test In App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				FA5520922DA155B500A546F9 /* TestStoreKit.storekit */,
+			);
+			path = "Test In App Purchase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5520712DA1327200A546F9 /* Build configuration list for PBXNativeTarget "Assignment–SpeedApps" */;
 			buildPhases = (
+				3D7C4FBCB8B3AC179F6C1D4F /* [CP] Check Pods Manifest.lock */,
 				FA5520592DA1326F00A546F9 /* Sources */,
 				FA55205A2DA1326F00A546F9 /* Frameworks */,
 				FA55205B2DA1326F00A546F9 /* Resources */,
@@ -126,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA55206D2DA1327200A546F9 /* LaunchScreen.storyboard in Resources */,
+				FA5520862DA139D800A546F9 /* ProductTableViewCell.xib in Resources */,
 				FA55206A2DA1327200A546F9 /* Assets.xcassets in Resources */,
 				FA5520682DA1326F00A546F9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +260,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D7C4FBCB8B3AC179F6C1D4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment–SpeedApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA5520592DA1326F00A546F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5520652DA1326F00A546F9 /* ViewController.swift in Sources */,
+				FA55207F2DA136C400A546F9 /* HomeViewController.swift in Sources */,
 				FA5520612DA1326F00A546F9 /* AppDelegate.swift in Sources */,
+				FA55207D2DA1369300A546F9 /* ViewModels.swift in Sources */,
 				FA5520632DA1326F00A546F9 /* SceneDelegate.swift in Sources */,
+				FA55208A2DA149D800A546F9 /* CodeExtension.swift in Sources */,
+				FA5520812DA136D600A546F9 /* APIService.swift in Sources */,
+				FA5520902DA1509800A546F9 /* IAPManager.swift in Sources */,
+				FA5520882DA1469E00A546F9 /* ProductDetailViewController.swift in Sources */,
+				FA5520852DA139D800A546F9 /* ProductTableViewCell.swift in Sources */,
+				FA55207B2DA1368500A546F9 /* Model.swift in Sources */,
+				FA8531C02DA28E0C002AA0E4 /* PurchasedViewController.swift in Sources */,
+				FA8531C42DA29713002AA0E4 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +443,7 @@
 		};
 		FA5520722DA1327200A546F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9226533737865C3F5F50E3D7 /* Pods-Assignment–SpeedApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +471,7 @@
 		};
 		FA5520732DA1327200A546F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA58DAA42D57DEC585467546 /* Pods-Assignment–SpeedApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

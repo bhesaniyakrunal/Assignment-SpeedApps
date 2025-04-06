@@ -4,19 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Assignment–SpeedApps.xcscheme_^#shared#^_</key>
+		<key>Kingfisher.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Assignment–SpeedApps.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>FA55205C2DA1326F00A546F9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
